@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biosynthesie </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav_logo">Biosynthesia</div>
+
+    <input type="checkbox" id="nav_toggle" class="nav_toggle" />
+
+    <label for="nav_toggle" class="nav_icon_toggle">
+      <i class="fa-solid fa-bars"></i>
+    </label>
+
+    <div class="nav_bar_items">
+      <ul class="nav_links">
+        <li><a href="#home" class="nav_item home">Home</a></li>
+        <li><a href="#about" class="nav_item">About Us</a></li>
+        <li><a href="#reviews" class="nav_item">Reviews</a></li>
+        <li><a href="#products" class="nav_item">Products</a></li>
+        <li><a href="#blog" class="nav_item blog">Blog</a></li>
+      </ul>
+    </div>
+
+    <div class="nav_auth">
+      <button class="login_btn">Login</button>
+      <img class="signup" src="/images/Sign_upfree.png" />
+    </div>
+  </nav>
+
+
+
+
+  <!--  Hero Section start-->
+  <section class="hero_section">
+    <div class="hero_overlay">
+      <div class="hero_label"><span><img src="/images/indicator.png" class="hero_label_image" /></span>
+        <p class="hero_label_text">Top Agro Researcher's</p>
+      </div>
+      <h1 class="hero_title">Cultivating Next-Gen Growth in Agriculture</h1>
+      <div class="hero_subtitle">
+        <p>Empowering farmers with smarter tools, bigger yields, and greener solutions.</p>
+      </div>
+      <button class="hero_cta">Get Started <img src="/images/Vector (1).png" class="her_cta_vector" /></button>
+    </div>
+  </section>
+  <!-- Hero sction end -->
+  <!-- banner section start -->
+  <section class="banner_section">
+    <img class="banner_section_image" src="/images/banner image.png" />
+  </section>
+  <!-- banner section end -->
+  <!-- inreoduction section start -->
+  <section class="intro_section">
+    <div id="inreoduction_section_parent">
+      <div id="inreoduction_section_year">2025</div>
+      <div id="inreoduction_section_text">At <span id="BioSynthesis">BioSynthesis,</span> we’re growing a greener,
+        smarter future for agriculture. With innovative tools and sustainable solutions, we help farmers boost yields,
+        cut waste, and protect the planet. Together, we’re cultivating healthier crops, stronger communities, and a
+        brighter tomorrow.</div>
+    </div>
+  </section>
+
+  <!-- inreoduction section end -->
+  <!-- top service section start -->
+
+  <section class="agri_collage">
+    <div class="top_service_parent">
+      <div class="top_service" data-index="1" onclick="activateCard(this)">
+        <img src="/images/top_service_one.png" class="top_service_image" />
+        <div class="cta_layer">
+          <p class="cta_text">Get <br>Started Now</p>
+          <div><img src="/images/arrow button.png" class="green_arrow_btn" /></div>
+
+        </div>
+        <p class="top_service_heading">Organic Farm</p>
+
+        <img src="/images/Component 3.png" class="arrow_button" />
+      </div>
+      <div class="top_service" data-index="2" onclick="activateCard(this)">
+        <img src="/images/top_service_two.png" class="top_service_image" />
+        <div class="cta_layer">
+          <p class="cta_text">Get <br>Started Now</p>
+          <div><img src="/images/arrow button.png" class="green_arrow_btn" /></div>
+        </div>
+        <p class="top_service_heading">Organic Fertilizer</p>
+        <img src="/images/Component 3.png" class="arrow_button" />
+      </div>
+      <div class="top_service" data-index="3" onclick="activateCard(this)">
+        <img src="/images/top_service_three.png" class="top_service_image" />
+        <div class="cta_layer">
+          <p class="cta_text">Get <br>Started Now</p>
+          <div><img src="/images/arrow button.png" class="green_arrow_btn" /></div>
+        </div>
+        <p class="top_service_heading">Technology Irrigation</p>
+        <img src="/images/Component 3.png" class="arrow_button" />
+      </div>
+      <div class="top_service" data-index="4" onclick="activateCard(this)">
+        <img src="/images/top_service_four.png" class="top_service_image" />
+        <div class="cta_layer">
+          <p class="cta_text">Get <br>Started Now</p>
+          <div><img src="/images/arrow button.png" class="green_arrow_btn" /></div>
+
+        </div>
+        <p class="top_service_heading">Agricultural Monitoring</p>
+        <img src="/images/Component 3.png" class="arrow_button" />
+      </div>
+    </div>
+  </section>
+  <!-- top service section end -->
+  <!-- inreoduction section start -->
+  <section class="image_section">
+    <div id="image_section_parent">
+      <img id="image_section_src" src="/images/Cta banner.png" />
+
+      <h3 id="image_section_text">Transform Your Farm.<br>Empower Your Future.</h3>
+    </div>
+  </section>
+
+  <!-- inreoduction section end -->
+  <!-- insight section start -->
+  <section>
+    <div class="insight_section_parent">
+      <div class="insight_section_left">The Green Growth Hub: Innovation & Earthwise</div>
+      <div class="insight_section_right">Insights, tips, and stories from the world of sustainable farming and
+        innovative agriculture — offering expert advice, real-world success stories, and the latest trends to help
+        farmers embrace smarter, eco-friendly practices. From cutting-edge technology to time-tested solutions, we’re
+        here to inspire and guide you on the journey toward a more sustainable, productive future.</div>
+    </div>
+  </section>
+  <!-- insight section end -->
+  <!-- servive section start -->
+  <section>
+    <div class="service_section_parent">
+      <div class="service_div">
+        <img src="/images/service_one.png" class="service_image" alt="first service" />
+        <h4 class="service_heading">Farming Precision</h4>
+        <p class="service_paragrapgh">
+          Optimize your fields, reduce waste, and boost yields with smart, precise farming solutions.
+
+        </p>
+        <a href="" class="read_more">Read more</a><span><img src="/images/Vector.png" class="arrow_vector"
+            alt="arrow vector" /></span>
+
+      </div>
+      <div class="service_div">
+        <img src="/images/service_three.png" class="service_image" alt="second service" />
+        <h4 class="service_heading">Crop Surveillance</h4>
+        <p class="service_paragrapgh">
+          Monitor crop health in real-time with smart tools that detect issues early and protect your yield.
+        </p>
+        <a href="" class="read_more">Read more</a><span><img src="/images/Vector.png" class="arrow_vector"
+            alt="arrow vector" /></span>
+
+      </div>
+      <div class="service_div">
+        <img src="/images/service_two.png" class="service_image" alt="third service" />
+        <h4 class="service_heading">Automated Farming</h4>
+        <p class="service_paragrapgh">
+          Streamline your farm operations with smart automation for faster, easier, and more efficient growth.
+        </p>
+        <a href="" class="read_more">Read more</a><span><img src="/images/Vector.png" class="arrow_vector"
+            alt="arrow vector" /></span>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- servive section end -->
+  <!-- help section start -->
+
+  <section class="help_section">
+    <div class="help_section_parent">
+      <div class="help_section_form">
+        <form class="help_form">
+          <h3 class="help_form_heading">We’d love to help</h3>
+          <p class="help_form_para">
+            Streamline your farm operations with smart automation for faster, easier, and more efficient growth.
+          </p>
+          <div class="form_name_paent">
+
+            <div class="form_group">
+              <label for="first_name">First Name</label>
+              <input type="text" id="first_name" class="enter_name" />
+            </div>
+
+            <div class="form_group">
+              <label for="last_name" id="last_name_input">Last Name</label>
+              <input type="text" id="last_name" class="enter_name" />
+            </div>
+          </div>
+
+          <div class="form_group">
+            <label for="email">Email</label>
+            <input type="email" id="email" class="form_input" />
+          </div>
+
+          <div class="form_group">
+            <label for="message">Message</label>
+            <textarea id="message" class="form_textarea"></textarea>
+          </div>
+
+          <button type="submit" class="send_button">Send</button>
+        </form>
+      </div>
+
+      <div class="help_section_image">
+        <img src="/images/Rectangle 6.png" alt="Forest with waterfalls" />
+      </div>
+    </div>
+  </section>
+
+  <!-- help section end -->
+
+
+  <!--FOOTER START -->
+  <footer class="footer_section">
+    <div class="footer_overlay_text">REEP TO GROW</div>
+
+    <div class="footer_parent">
+      <div class="biosynthesie_info">
+        <div class="brand">
+          <span><img src="images/Frame.png" /></span>
+          <p class="biosynthesie_info_para">
+            Monitor crop health in real-time with smart tools that detect issues early and protect your yield.
+          </p>
+          <div class="social-icons">
+            <span><img class="images_facebook" src="images/icon_instgram.png" alt="Facebook" /></span>
+            <span><img class="images_facebook" src="images/icon_x.png" alt="Twitter" /></span>
+            <span><img class="images_x" src="images/icon_linkedin.png" alt="LinkedIn" /></span>
+            <span><img class="images_instagram" src="images/icon_facebook.png" alt="Instagram" /></span>
+          </div>
+        </div>
+
+        <div class="biosynthesie_list">
+          <ul class="company">
+            <p>COMPANY</p>
+            <li>Features</li>
+            <li>Pricing</li>
+            <li>About Us</li>
+            <li>Product</li>
+            <li>Contact</li>
+          </ul>
+
+          <ul class="resources">
+            <p>RESOURCES</p>
+            <li>Blog</li>
+            <li>Customer Stories</li>
+            <li>Info</li>
+            <li>Privacy Policy</li>
+            <li>Payments</li>
+          </ul>
+
+          <ul class="career">
+            <p>CAREER</p>
+            <li>Jobs</li>
+            <li>Hiring</li>
+            <li>News</li>
+            <li>Tips & Tricks</li>
+          </ul>
+
+          <ul class="help">
+            <p>HELP</p>
+            <li>FAQ</li>
+            <li>Help Center</li>
+            <li>Support</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- FOOTER END -->
+  <script>
+    function activateCard(el) {
+      document.querySelectorAll('.top_service').forEach(card => {
+        card.classList.remove('active');
+      });
+      el.classList.add('active');
+    }
+    function activateCard(el) {
+      document.querySelectorAll('.top_service').forEach(card => {
+        card.classList.remove('active');
+        card.classList.remove('show-arrow');
+      });
+      el.classList.add('active');
+      const parent = el.parentElement;
+      const children = Array.from(parent.children);
+      const index = children.indexOf(el);
+      if (index > 0) {
+        const leftSibling = children[index - 1];
+        leftSibling.classList.add('show-arrow');
+      }
+    }
+  </script>
+
+</body>
+
+</html>
